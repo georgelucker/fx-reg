@@ -1,0 +1,26 @@
+# ServiceAccount configuration
+serviceAccount:
+  # Name of the ServiceAccount
+  name: admin-user
+  # Namespace where Dashboard is installed
+  namespace: kubernetes-dashboard
+
+# ClusterRoleBinding configuration
+clusterRoleBinding:
+  # Name of the ClusterRoleBinding
+  name: dashboard-admin-user
+  # ClusterRole to bind (cluster-admin for full access)
+  clusterRole: cluster-admin
+
+# Secret configuration for token
+secret:
+  # Create a Secret with token
+  create: true
+  # Name of the Secret
+  name: admin-user-token
+
+# Optional: Create a read-only user instead of admin
+readOnly:
+  enabled: false
+  # If enabled, uses view ClusterRole instead of cluster-admin
+
