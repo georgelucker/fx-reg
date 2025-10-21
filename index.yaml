@@ -3,6 +3,15 @@ entries:
   MetalLB-address-pool:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2025-10-21T12:21:27.279099182Z"
+    description: MetalLB IP address pool
+    digest: 0fd472e4c1bea05c33ac79dfcb5cf53cf0ecd96d2e610478dd32112a88420fd4
+    name: MetalLB-address-pool
+    urls:
+    - https://github.com/georgelucker/fx-reg/releases/download/MetalLB-address-pool-0.1.2/MetalLB-address-pool-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2025-10-21T11:15:41.130269002Z"
     description: MetalLB IP address pool
     digest: 258793344123a357a6ef3ffdb4ff3871486c2ebc09172809788a03cae76a44c3
@@ -20,4 +29,4 @@ entries:
     urls:
     - https://github.com/georgelucker/fx-reg/releases/download/ip-address-pool-0.1.1/ip-address-pool-0.1.1.tgz
     version: 0.1.1
-generated: "2025-10-21T11:15:41.130279151Z"
+generated: "2025-10-21T12:21:27.27911316Z"
