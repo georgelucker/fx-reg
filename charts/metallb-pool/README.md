@@ -1,4 +1,3 @@
-```markdown
 # MetalLB Address Pool
 
 Helm-чарт для конфигурации MetalLB с использованием CRD (Custom Resource Definitions).
@@ -75,4 +74,3 @@ helm install pool-2 metallb-pool/metallb-pool -f pool2-values.yaml
 ## Поддержка
 
 Если у вас возникли вопросы или проблемы, пожалуйста, создайте issue в [GitHub репозитории](https://github.com/georgelucker/fx-reg).
-```
