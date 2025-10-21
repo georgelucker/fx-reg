@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  ip-address-pool:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-10-21T11:11:22.656610375Z"
+    description: MetalLB IP address pool
+    digest: 5514c22361709d7d09aff8ebdfb3b5c53be059a4605650879b65aa775b80e7ae
+    name: ip-address-pool
+    urls:
+    - https://github.com/georgelucker/fx-reg/releases/download/ip-address-pool-0.1.1/ip-address-pool-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-10-21T11:11:22.656619311Z"
