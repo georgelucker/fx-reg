@@ -1,5 +1,5 @@
 apiVersion: v2
-name: ip-address-pool
+name: MetalLB-address-pool
 description: MetalLB IP address pool
 version: 0.1.1
 appVersion: "1.0"
